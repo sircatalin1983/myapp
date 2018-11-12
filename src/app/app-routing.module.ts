@@ -26,16 +26,16 @@ const routes: Routes = [
 const routes: Routes = [
   Shell.childRoutes([
     {
-      path: 'login',
-      loadChildren: 'app/login/login.module#LoginModule'
-    },
-    {
       path: '',
       loadChildren: './layout/layout.module#LayoutModule',
       canActivate: [AuthenticationGuard]
+    },
+    {
+      path: 'login',
+      loadChildren: 'app/login/login.module#LoginModule'
     }
-  ]),
-  { path: '**', redirectTo: '', pathMatch: 'full' }
+  ])
+  //{ path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({
