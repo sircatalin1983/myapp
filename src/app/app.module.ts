@@ -64,7 +64,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { environment } from '@env/environment';
 import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
-import { HomeModule } from './home/home.module';
+//import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { LoginModule } from './login/login.module';
 
@@ -78,14 +78,14 @@ import { LoginModule } from './login/login.module';
     CoreModule,
     SharedModule,
     ShellModule,
-    HomeModule,
+    //HomeModule,
     LoginModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
     OverlayModule,
     HttpClientModule,
-    TranslateModule.forRoot()
+    TranslateModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [StatusBar, SplashScreen],
   bootstrap: [AppComponent]
