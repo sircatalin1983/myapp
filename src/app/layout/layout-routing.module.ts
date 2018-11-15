@@ -18,6 +18,26 @@ const routes: Routes = [
         loadChildren: './dashboard/dashboard.module#DashboardModule'
       },
       {
+        path: 'charts',
+        loadChildren: './blank-page/blank-page.module#BlankPageModule'
+      },
+      {
+        path: 'components',
+        loadChildren: './blank-page/blank-page.module#BlankPageModule'
+      },
+      {
+        path: 'forms',
+        loadChildren: './blank-page/blank-page.module#BlankPageModule'
+      },
+      {
+        path: 'grid',
+        loadChildren: './blank-page/blank-page.module#BlankPageModule'
+      },
+      {
+        path: 'tables',
+        loadChildren: './blank-page/blank-page.module#BlankPageModule'
+      },
+      {
         path: 'blank-page',
         loadChildren: './blank-page/blank-page.module#BlankPageModule'
       }

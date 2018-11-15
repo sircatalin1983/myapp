@@ -23,8 +23,8 @@ $app-warn: mat-palette($mat-red);
 $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 @font-face {
-  //    font-family: 'Fontil Sans';
-  //    src: url('../assets/fonts/FontinSans/Fontin_Sans_R.otf') format('opentype');
+  font-family: "Fontil Sans";
+  src: url("/../assets/fonts/FontinSans/Fontin_Sans_R.otf") format("opentype");
 }
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
