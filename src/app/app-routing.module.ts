@@ -10,7 +10,15 @@ const routes: Routes = [
   },
   {
     path: 'login',
-    loadChildren: './login/login.module#LoginModule'
+    loadChildren: './security/login/login.module#LoginModule'
+  },
+  {
+    path: 'register',
+    loadChildren: './security/register/register.module#RegisterModule'
+  },
+  {
+    path: 'forgot-password',
+    loadChildren: './security/forgot-password/forgot-password.module#ForgotPasswordModule'
   }
 ];
 
