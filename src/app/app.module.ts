@@ -66,7 +66,8 @@ import { CoreModule } from '@app/core';
 import { SharedModule } from '@app/shared';
 //import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
-import { LoginModule } from './login/login.module';
+//import { LoginModule } from './login/login.module';
+import { LoginModule } from './security/login/login.module';
 
 @NgModule({
   declarations: [AppComponent],
